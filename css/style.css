@@ -1,0 +1,238 @@
+body{
+    font-family: 'Balsamiq Sans', 'cursive';
+    margin: 0;
+    padding: 0px;
+}
+
+.logo{
+    width: 70px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header *{
+    display: inline;
+}
+
+header{
+    box-shadow:0 0 8px gray;
+    width: 100%;
+    position:absolute;
+    top:0%;
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0.219);
+}
+
+span{
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+    color: white;
+    font-size: x-large;
+}
+
+ul{
+    display: flex;
+    margin-left: -60%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+nav{
+    position: absolute;
+    right: 50px;
+    bottom: 12px;
+    width: 400px; 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#banner{
+    background-image: url(../img/out.png);
+    background-size: cover;
+    width: 100%;
+    height: 905px;
+    margin-top: -155px;
+
+}
+
+#banner div {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 280px;
+    color: rgb(255, 255, 255);
+}
+
+#banner div p {
+    font-size: 30px;
+}
+
+#banner div button{
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    margin-top: 400px;
+    font-size: x-large;
+    font: bolder;
+    opacity: 90%;
+    box-shadow: 0 0 10px white;
+    font-family: 'Balsamiq Sans', 'cursive';
+}
+
+h3 { 
+    text-align:center ;
+    font-size: xx-large;
+}
+
+.serviços{
+    width: 50%;
+    margin-left: 82px;
+    display: flex;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px 175px;
+}
+
+#cards div{
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+    margin: 1%;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10%;
+}
+
+#cards div p {
+    text-align: center;
+    font-size: x-large;
+    margin-top: -12px;
+}
+
+#cards div button {
+    position:relative;
+    bottom: -8%;
+    left: 30%;
+    border-radius: 25px;
+    padding: 10px;
+    border: 0;
+    background-color: black;
+    color: white;
+    box-shadow:0 0 8px black;
+    font-size: x-large;
+    font: bolder;
+    font-family: 'Balsamiq Sans', 'cursive';
+}
+
+.background-form {
+    background-color: gray;
+    min-height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 15px;
+    color: white;
+    background-color: rgb(26, 23, 23);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container form {
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+}
+
+.container form .box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+form .box1 .campo1 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 2 - 15px);
+    width: 40%;
+}
+
+.campo1 input {
+    border-radius: 20px;
+}
+
+.container form .box2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+form .box2 .campo2 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 2);
+    width: 40%;
+    padding-top: 5px;
+}
+
+.campo2 select {
+    border-radius: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.info textarea {
+    resize: none;
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.info-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.info-button button{
+    display: relative;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    font-size: large;
+
+
+}
+
+.footer {
+    text-align: center;
+}
+
+
